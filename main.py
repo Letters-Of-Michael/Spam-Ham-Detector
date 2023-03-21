@@ -93,7 +93,8 @@ with header:
 				st.title(prediction)
 		spamdetection()
 
-
+		urlp = 'To view my portfolio and contact me, please click  [Portfolio](https://letters-of-michael.github.io/Oluwaseyi-Michael.github.io/)'
+		st.markdown(urlp,unsafe_allow_html=True)
 
 
 
